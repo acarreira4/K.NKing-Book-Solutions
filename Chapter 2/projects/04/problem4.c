@@ -10,7 +10,7 @@ int main(void)
 	printf("Enter an amount: ");
 	scanf("%lf", &amount);
 
-	total = amount * 0.05;
+	total = amount * tax;
 
 	totalTax = amount + total;
 
